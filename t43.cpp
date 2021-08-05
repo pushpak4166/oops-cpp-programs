@@ -20,6 +20,7 @@ void frequency(int arr[],int n)
         cout<<i->first<<" "<<(*i).second<<endl;
     }
 
+    // calculating maximum frequency
     int max1=INT_MIN;
     for(auto i=m.begin();i!=m.end();i++)
     {
